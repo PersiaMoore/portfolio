@@ -114,6 +114,11 @@ footer p {
     margin: 60px auto;
 }
 
+footer a {
+    color: white
+    
+}
+
 @media only screen and (max-width: 991px) {
     header {
         text-align: left;
