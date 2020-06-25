@@ -9630,7 +9630,36 @@ padding-left: 10%;
 
 .intro-contact-info {
 	font-weight: lighter;
+
 }
+
+form .submit {
+	display: inline-block;
+	border: 0;
+	padding: 18px 25px;
+	font-size: .96rem;
+	font-weight: 500;
+	line-height: 1.2;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	text-transform: uppercase;
+	transition: all .5s;
+	background-color: #3d3586;
+}
+
+form .submit:hover {
+background-color: #1c574d;
+cursor: pointer;
+}
+
+
+
 /* @media (min-width: 576px){
 	.container {
 		width: 540px;

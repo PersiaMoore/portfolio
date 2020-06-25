@@ -566,22 +566,22 @@
                             
                             <div class="row vertical-gap">
                                 <div class="col-md-6">
-                                    <input type="text" class="form-control required" name="name"
-                                        placeholder="Your Name">
+                                    <input type="text" class="form-control" name="name"
+                                        placeholder="Your Name" required>
                                 </div>
                                 <div class="col-md-6">
-                                    <input type="email" class="form-control required" name="email"
-                                        placeholder="Your Email">
+                                    <input type="email" class="form-control" name="email"
+                                        placeholder="Your Email" required>
                                 </div>
                             </div>
 
                             <div class="nk-gap-1"></div>
-                            <textarea class="form-control required" name="message" rows="8" placeholder="Your Comment"
-                                aria-required="true"></textarea>
+                            <textarea class="form-control" name="message" rows="8" placeholder="Your Comment" required></textarea>
+                                
                             <div class="nk-gap-1"></div>
                             <div class="nk-form-response-success"></div>
                             <div class="nk-form-response-error"></div>
-                            <button class="nk-btn">Send Message</button>
+                            <input type="submit" class="form-control submit nk-btn" value="Send Message">
                         </form>
                         <!-- END: Form -->
                     </div>
