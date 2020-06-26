@@ -9659,11 +9659,11 @@ cursor: pointer;
 }
 
 /* For mobile phones: */
-@media (min-width: 375px){
+/* @media (min-width: 375px){
 .col- {
 	width: 85%;
   }
-}
+} */
 
 @media (min-width:375px) {
 	/* .col-lg,
