@@ -9718,8 +9718,7 @@ cursor: pointer;
 	.col-xs-10,
 	.col-xs-11,
 	.col-xs-12 {
-		padding-right: 15px;
-		padding-left: 15px;
+		
 		width:85%;
 	}
 }
