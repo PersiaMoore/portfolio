@@ -7462,15 +7462,15 @@ color:#000;
 .nk-ibox-1 .nk-ibox-icon {
 	position: absolute;
 	font-size: 3.3rem;
-	width: 50px;
-	height: 50px;
+	/* width: 50px;
+	height: 50px; */
 	line-height: 50px;
 	text-align: center;
 	margin-top: 50px
 }
 
 .nk-ibox-1 .nk-ibox-cont {
-	margin-left: 72px
+	margin-left: 10%;
 }
 
 .nk-ibox-1 .nk-ibox-title {
@@ -9542,6 +9542,10 @@ a:hover>.nk-icon-search:after {
 	color:rgb(233, 233, 233);
 }
 
+.features-tittle {
+	color: yellow;
+}
+
 .homefy-tittle {
 	color:#312783;
 }
@@ -9551,6 +9555,10 @@ a:hover>.nk-icon-search:after {
 
 .lcdl-tittle {
 	color:#1c574d;
+}
+
+.design-solutions-tittle {
+	color: #EBAA20;
 }
 
 .lcdl {
@@ -9658,7 +9666,10 @@ background-color: #1c574d;
 cursor: pointer;
 }
 
-
+.container-skills {
+	padding-left: 5%;
+	
+}
 
 /* @media (min-width: 576px){
 	.container {
