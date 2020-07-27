@@ -5082,12 +5082,13 @@ body {
 }
 
 a {
-	color: #1140c9
+	color: #FFFFFF;
 }
 
 a:focus,
 a:hover {
-	color: #0d319a
+	color: #97abe5;
+	font-weight: bold;
 }
 
 ::-moz-selection {
