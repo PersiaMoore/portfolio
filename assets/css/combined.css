@@ -9631,6 +9631,7 @@ padding-left: 10%;
 
 .contact-info-container {
 	margin-top: 30px;
+	
 }
 .contact-info-tittle {
 	font-family: Playfair Display, serif;
@@ -9643,11 +9644,20 @@ padding-left: 10%;
 
 }
 
-/* .profile-pic {
-	
-	height: 10%;
-	width: 10%;
-} */
+.container-profile-pic {
+	margin-left: inherit;
+	width: 250px;
+	height: 300px;
+}
+
+/* resize images */
+.container img {
+	margin-right: -150%;
+	margin-top: 5%;
+	margin-left: 15%;
+	width: 100%;
+	height: inherit;
+}
 
 form .submit {
 	display: inline-block;
@@ -9738,7 +9748,21 @@ a.lcdl-button {
 
 
 
-
+/* Style buttons */
+.btn {
+	margin: -50% 35% -5% 60%;
+	background-color: DodgerBlue;
+	border: none;
+	color: white;
+	padding: 12px 30px;
+	cursor: pointer;
+	font-size: 20px;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+	background-color: RoyalBlue;
+  }
 
 
 
