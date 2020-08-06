@@ -9651,7 +9651,7 @@ padding-left: 10%;
 }
 
 /* resize images */
-.container img {
+.container-profile-pic img {
 	margin-right: -150%;
 	margin-top: 5%;
 	margin-left: 15%;
