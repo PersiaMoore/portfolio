@@ -655,34 +655,34 @@ code {
 .row:after {
 	content: "";
 	display: table;
-	clear: both
+	clear: both;
 }
 
 @media (min-width:576px) {
 	.row {
 		margin-right: -15px;
-		margin-left: -15px
+		margin-left: -15px;
 	}
 }
 
 @media (min-width:768px) {
 	.row {
 		margin-right: -15px;
-		margin-left: -15px
+		margin-left: -15px;
 	}
 }
 
 @media (min-width:992px) {
 	.row {
 		margin-right: -15px;
-		margin-left: -15px
+		margin-left: -15px;
 	}
 }
 
 @media (min-width:1200px) {
 	.row {
 		margin-right: -15px;
-		margin-left: -15px
+		margin-left: -15px;
 	}
 }
 
@@ -741,7 +741,7 @@ code {
 	position: relative;
 	min-height: 1px;
 	padding-right: 15px;
-	padding-left: 15px
+	padding-left: 15px;
 }
 
 @media (min-width:576px) {
@@ -798,7 +798,7 @@ code {
 	.col-xs-11,
 	.col-xs-12 {
 		padding-right: 15px;
-		padding-left: 15px
+		padding-left: 15px;
 	}
 }
 
@@ -856,7 +856,7 @@ code {
 	.col-xs-11,
 	.col-xs-12 {
 		padding-right: 15px;
-		padding-left: 15px
+		padding-left: 15px;
 	}
 }
 
@@ -914,7 +914,7 @@ code {
 	.col-xs-11,
 	.col-xs-12 {
 		padding-right: 15px;
-		padding-left: 15px
+		padding-left: 15px;
 	}
 }
 
@@ -972,38 +972,38 @@ code {
 	.col-xs-11,
 	.col-xs-12 {
 		padding-right: 15px;
-		padding-left: 15px
+		padding-left: 15px;
 	}
 }
 
 .col-xs-1 {
 	float: left;
-	width: 8.333333%
+	width: 8.333333%;
 }
 
 .col-xs-2 {
 	float: left;
-	width: 16.666667%
+	width: 16.666667%;
 }
 
 .col-xs-3 {
 	float: left;
-	width: 25%
+	width: 25%;
 }
 
 .col-xs-4 {
 	float: left;
-	width: 33.333333%
+	width: 33.333333%;
 }
 
 .col-xs-5 {
 	float: left;
-	width: 41.666667%
+	width: 41.666667%;
 }
 
 .col-xs-6 {
 	float: left;
-	width: 50%
+	width: 50%;
 }
 
 .col-xs-7 {
@@ -5083,6 +5083,7 @@ body {
 
 a {
 	color: #FFFFFF;
+	font-weight: bold;
 }
 
 a:focus,
@@ -9642,6 +9643,12 @@ padding-left: 10%;
 
 }
 
+/* .profile-pic {
+	
+	height: 10%;
+	width: 10%;
+} */
+
 form .submit {
 	display: inline-block;
 	border: 0;
@@ -9671,6 +9678,70 @@ cursor: pointer;
 	padding-left: 5%;
 	
 }
+
+
+/* button yawn */
+a.yawn-button {
+	margin-left: 80%;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: #388fd2;
+	;
+}
+
+.yawn-button:hover{
+	color: yellow;
+	;
+	
+}
+/* end button yawn */
+
+/* button homefy */
+a.homefy-button {
+	margin-left: 80%;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+	color:#312783;
+    
+}
+
+.homefy-button:hover{
+	color: rgb(56, 124, 155);
+	
+}
+/* end button homefy */
+
+/* button lcdl */
+a.lcdl-button {
+	margin-left: 84%;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: #1c574d;
+}
+
+.lcdl-button:hover{
+	color: #EBAA20;
+	
+}
+/* end button lcdl */
+
+
+
+
+
+
+
+
+
 
 /* @media (min-width: 576px){
 	.container {
