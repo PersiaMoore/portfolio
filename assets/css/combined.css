@@ -9537,26 +9537,27 @@ a:hover>.nk-icon-search:after {
 }
 
 .yawn-tittle {
-	color: #388fd2;
+	color: #EBAA20;
 }
 
 .yawn {
-	color:rgb(233, 233, 233);
+	color:#f4f4f4;
 }
 
 .features-tittle {
-	color: yellow;
+	color:#EBAA20;
 }
 
 .homefy-tittle {
-	color:#312783;
+	color:#EBAA20;
+	
 }
 .homefy {
-	color: #333333;
+	color: #f4f4f4;
 }
 
 .lcdl-tittle {
-	color:#1c574d;
+	color:#EBAA20;
 }
 
 .design-solutions-tittle {
@@ -9564,7 +9565,7 @@ a:hover>.nk-icon-search:after {
 }
 
 .lcdl {
-	color: #333333;
+	color: #f4f4f4;
 }
 
 .pm-gap-4 {
@@ -9577,7 +9578,7 @@ a:hover>.nk-icon-search:after {
 
 .pm-gap-7 {
 	height: 100px;
-	background-color: #F6f6f6;
+	background-color: #f6f6f6;
 }
 /* .container {
     margin-left: auto;
@@ -9636,7 +9637,8 @@ padding-left: 10%;
 .contact-info-tittle {
 	font-family: Playfair Display, serif;
 	font-weight: 700;
-	color: rgb(54, 134, 220);
+	/* color: #cdd6e6; */
+	color: #EBAA20;
 }
 
 .intro-contact-info {
@@ -9698,12 +9700,12 @@ a.yawn-button {
     appearance: button;
 
     text-decoration: none;
-    color: #388fd2;
+	color: #EBAA20;
 	;
 }
 
 .yawn-button:hover{
-	color: yellow;
+	color: rgb(200, 0, 255);
 	;
 	
 }
@@ -9717,12 +9719,11 @@ a.homefy-button {
     appearance: button;
 
     text-decoration: none;
-	color:#312783;
-    
+	color: #EBAA20;
 }
 
 .homefy-button:hover{
-	color: rgb(56, 124, 155);
+	color: rgb(200, 0, 255);
 	
 }
 /* end button homefy */
@@ -9735,11 +9736,11 @@ a.lcdl-button {
     appearance: button;
 
     text-decoration: none;
-    color: #1c574d;
+    color: #EBAA20;
 }
 
 .lcdl-button:hover{
-	color: #EBAA20;
+	color: rgb(200, 0, 255);
 	
 }
 /* end button lcdl */
